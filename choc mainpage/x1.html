@@ -17,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a id="g2" href="#">Dark mode</a>
     <div class="t1">
         <a class="q1" href="#">About</a><a class="q2" href="#">Team</a><a class="q3" href="#">Projects</a><a class="q4" href="#">CHOC Token</a>
     </div>
@@ -26,5 +27,11 @@
     <h4>Bringing triple-layered protection to web 3.0</h4>
     <button class="f2">Explore Projects</button>
     <img src="assets/chocolate-red-big.svg" alt="choco logo">
+    <script>
+        var icon = document.getElementById("g2")
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+        }
+    </script>
 </body>
 </html>
